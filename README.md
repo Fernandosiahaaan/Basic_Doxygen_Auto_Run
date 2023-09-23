@@ -5,7 +5,7 @@ This repository will explain auto run using Doxygen on Platformio to make docume
 1. [Install Doxygen](https://www.doxygen.nl/manual/install.html)
 2. install extension `Platformio` in `VSCode` for embeded tools.
 
-# Flow Run Time Project
+# Rules of Project
 1. edit your code that will be doxygenized in the `./src` or `./lib` file, such as adding headers of class, headers of function, and others.
 2. edit line 15 and line 16 based on `commandRunDoxygen.py` in your directory project.
 3. If you want to add a new doxygen file, you can give the command `"doxygen -f [your-file-name]"`.
